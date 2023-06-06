@@ -1,0 +1,41 @@
+
+=================
+= Description: =
+=================
+
+This program reorders a given English text alphabetically according to the English version of the Hebrew alphabet. It takes a single argument, a string representing the text to be reordered, it removes all punctuation marks from the text before sorting it and returns the reordered text as a string.
+
+
+=================
+= Requirements: =
+=================
+
+Python 3.6 or later
+
+
+==========
+= Usage: =
+==========
+
+This program can be run from the command line using the following format:
+ 
+python reorder_text.py <text_input> 
+
+Replace <text_input> with the English text that you want to reorder. The output will be the reordered text as a string. Note that all punctuation marks will be removed from the text before sorting it.
+
+
+============
+= EXAMPLE: =
+============
+
+Suppose you want to reorder the following text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+
+From the command line, you would run the following command:
+
+python reorder_text.py "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+
+The output of the program will be:
+
+"adipiscing aliqua amet do dolor dolore tempor labore Lorem magna sit sed incididunt ipsum ut consectetur et elit eiusmod"
+
+If you input a non-English text or invalid input, you will get an error message.
